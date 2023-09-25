@@ -11,7 +11,7 @@ namespace Tyuiu.GandaloevMA.Sprint0.Task2.V0.Test
         {
             var name = "Мага";
             var res = DataService.GetMessage(name);
-            Assert.AreEqual("Привет,Мага", res);
+            Assert.AreEqual("Привет, Мага",res);
         }
     }
 }

@@ -5,7 +5,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{D70A4B8A-9CA5-46DB-BD57-D594331A6AA1}</ProjectGuid>
+    <ProjectGuid>{C0A8CE18-8894-4453-AB2C-EBA01F8CC088}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Tyuiu.GandaloevMA.Sprint0.Task2.V0.Test</RootNamespace>
@@ -50,15 +50,14 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DataServiceTest.cs" />
-    <Compile Include="DataServiceTestBase.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Tyuiu.GandaloevMA.Sprint0.Task2.V0.LIb\Tyuiu.GandaloevMA.Sprint0.Task2.V0.Lib.csproj">
-      <Project>{ba62133e-d4f6-4bd3-b997-793dac0d92c5}</Project>
+    <ProjectReference Include="..\Tyuiu.GandaloevMA.Sprint0.Task2.V0.Lib\Tyuiu.GandaloevMA.Sprint0.Task2.V0.Lib.csproj">
+      <Project>{bb8c7646-4b2c-4b35-ad70-245b9cd8762e}</Project>
       <Name>Tyuiu.GandaloevMA.Sprint0.Task2.V0.Lib</Name>
     </ProjectReference>
   </ItemGroup>

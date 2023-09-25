@@ -11,7 +11,7 @@ namespace Tyuiu.GandaloevMA.Sprint0.Task2.V0
         static void Main(string[] args)
         {
             Console.WriteLine(DataService.GetMessage("Мага"));
-            Console.ReadKey();
+            Console.ReadLine();
         }
     }
 }
